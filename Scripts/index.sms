@@ -1,0 +1,2 @@
+var x = 1
+print("The number is {$x} also yes I can put " in "".")
