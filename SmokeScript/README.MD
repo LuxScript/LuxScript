@@ -15,3 +15,7 @@
 > Install command: git clone https://github.com/scriptsmoke/ScriptSmoke.git
 > Install DotNet: https://dotnet.microsoft.com/en-us/download
 > Install Node: https://nodejs.org/en/
+
+## EXECUTION OF CODE
+
+> Shell command: "./SmokeScript/run"
