@@ -1,2 +1,0 @@
-var x = 'Welcome to SmokeScript v0.0.2';
-print ('@{x}');
