@@ -1,0 +1,10 @@
+{
+    "Folder": "\\Scripts\\",
+    "ReadingWay": "utf8",
+    "Commands": false,
+    "Console": {
+        "Console": false,
+        "Message": false
+    },
+    "ShowFilesOnStart": false
+}
