@@ -1,4 +1,7 @@
+# IMPORTANT (Command)
 **IMPORTANT**
+Please note that this is a need to the programming language. Without this you cannot use the luxscript command.
+
 Please create this file in the location "C:\Windows\System32\" and there create a file named "luxscript.bat" then add this to it:
 ```Batch
 @echo off
