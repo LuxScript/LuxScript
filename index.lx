@@ -1,0 +1,10 @@
+# LuxScript basic console program.
+
+# Setting the variable.
+set msg = "
+Welcome to LuxScript v0.0.4!
+   Created by: Sparky2you
+";
+
+# Printing the variable.
+print(msg);
