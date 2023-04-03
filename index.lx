@@ -1,0 +1,5 @@
+sets [
+    WelcomeMessage = "Welcome to LuxScript",
+    Version = "0.0.5"
+];
+print("{WelcomeMessage} v{Version}");
