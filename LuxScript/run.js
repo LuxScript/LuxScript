@@ -7,9 +7,6 @@ const { PUNCTUATION } = require("./Lexer/tokentype.js");
 const error = require("./errors");
 const { JSDOM } = require("jsdom");
 
-//undefined variables
-let xFunc;// boolean flag?
-let yFunc;// boolean flag?
 
 function run(code, file, code2) {
     const input = code;
@@ -454,6 +451,9 @@ function run(code, file, code2) {
                 }
             }
         }
+
+        let xFunc;// boolean flag?
+        let yFunc;// boolean flag?
 
         function runFunc() {
             xFunc = true;
