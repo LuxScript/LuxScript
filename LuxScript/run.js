@@ -403,7 +403,7 @@ function run(code, file, code2) {
                     if (/\{(.+?)\}/.test(tok[i][j]["value"])) {
                         tok[i][j]["value"] = tok[i][j]["value"].replace(/\{(.+?)\}/g, function(match, p1) {
                             if (p1.includes(".")) {
-                                p2 = p1.split(".");
+                                const p2 = p1.split(".");
                                 return variable[p2[0]][p2[1]] || "";
                                 /*
                                 } else if (p1.includes("[") and "]") {
