@@ -1,7 +1,10 @@
 const c = require('chalk');
 let errs = "Error: ";
-let file = require("./MAIN");
+let file;
 const error = {
+    setContext: (_file)=> {
+        file = _file;
+    },
 
     1: () => console.log(
 c.red("\n" + errs) + c.gray(`You can only use the variable type: set.\n`
