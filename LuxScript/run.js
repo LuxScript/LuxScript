@@ -8,7 +8,6 @@ const error = require("./errors");
 const { JSDOM } = require("jsdom");
 
 //undefined variables
-let htmlData;
 let xFunc;// boolean flag?
 let yFunc;// boolean flag?
 
@@ -152,6 +151,7 @@ function run(code, file, code2) {
                         if (tok[i][4]["type"] === "IDENTIFIER") {
                             tok[i][4]["value"] = variable[tok[i][4]["value"]];
                         }
+                        let htmlData;
                         if (fs.existsSync(tok[i][4]["value"])) {
                             htmlData = fs.readFileSync(tok[i][4]["value"], "utf8");
                         } else {
