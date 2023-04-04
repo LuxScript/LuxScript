@@ -1,4 +1,6 @@
 const fs = require("fs");
+const { exec } = require('child_process');
+const prettier = require('prettier');
 const Lexer = require("./lexer.js");
 const untokenize = require("./untokenize.js");
 const { PUNCTUATION } = require("./Lexer/tokentype.js");
