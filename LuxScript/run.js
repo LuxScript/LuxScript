@@ -9,7 +9,6 @@ const { JSDOM } = require("jsdom");
 
 //undefined variables
 let htmlData;
-let tok12;
 let xFunc;// boolean flag?
 let yFunc;// boolean flag?
 
@@ -434,7 +433,7 @@ function run(code, file, code2) {
                     functionName = tok[i][1]["value"];
                     // Add a new property to the functions object
                     functions[functionName] = function(...FuncVar) {
-                        tok12 = [...tok[i]]
+                        const tok12 = [...tok[i]]
                         tok12.shift();
                         tok12.shift();
                         tok12.shift();
