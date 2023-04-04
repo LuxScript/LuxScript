@@ -18,5 +18,8 @@
         "prompt-sync": "^4.2.0",
         "readline-sync": "*",
         "util": "*"
+    },
+    "devDependencies": {
+        "eslint": "^8.37.0"
     }
 }
