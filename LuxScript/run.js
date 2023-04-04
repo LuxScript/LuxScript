@@ -8,7 +8,7 @@ const error = require("./errors");
 const { JSDOM } = require("jsdom");
 
 
-function run(code, file, code2) {
+module.exports = function run(code, file, code2) {
     const input = code;
     const lexer = new Lexer(input);
     const tokens = lexer.lex();
