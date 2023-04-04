@@ -644,6 +644,15 @@ function run(code, file, code2) {
 
         function lxdom(tok) {
             let dir = __dirname.slice(0, -10);
+            // Document information variables used in this function
+            let documenttitle;
+            let documentdoctype;
+            let documentaddhtmlhead;
+            let documentaddhtmlbody;
+            let documentaddhtml;
+            let documentaddcss;
+            let documentaddscript;
+            let documentlang;
 
             if (tok[0]["value"] === "DOCUMENT") {
                 if (tok[1]["value"] === "DOT") {
