@@ -612,9 +612,6 @@ module.exports = function run(code, file, code2) {
 
         if (tok[i][0]["value"] === "bin") {
             if (tok[i][1]["value"] === "LEFT_PAREN") {
-                const {
-                    exec
-                } = require('child_process');
                 // Replace "binary code here" with your binary code string
                 const binaryCode = "binary code here";
                 const binaryBuffer = Buffer.from(binaryCode, 'binary');
