@@ -722,6 +722,7 @@ function run(code, file, code2) {
 
                     // Executing the document.
                     if (tok[2]["value"] === "create" && tok[3]["value"] === "LEFT_PAREN") {
+                        let html = document.documentElement.outerHTML;
                         if (typeof documentaddhtml !== 'undefined') {
                             dom.window.document.innerHTML = documentaddhtml;
                         }
@@ -736,7 +737,7 @@ function run(code, file, code2) {
                         }
                         if (typeof documentlang !== 'undefined') {
                             document.documentElement.setAttribute("lang", documentlang);
-                            const html = dom.serialize();
+                            html = dom.serialize();
                         }
                         if (typeof documentaddcss !== 'undefined') {
                             const style = document.createElement('style');
@@ -748,7 +749,6 @@ function run(code, file, code2) {
                             script.textContent = documentaddscript;
                             document.head.appendChild(script);
                         }
-                        html = document.documentElement.outerHTML;
                         if (typeof documentdoctype !== 'undefined') {
                             html = "<!DOCTYPE html>" + document.documentElement.outerHTML;
                         }
