@@ -477,7 +477,7 @@ function run(code, file, code2) {
                     lastTok.pop();
                     lastTok.pop();
                     lastTok.forEach(function(lT) {
-                        ltv = lT["value"];
+                        const ltv = lT["value"];
                         if (lT["type"] === "IDENTIFIER") {
                             console.log(variable)
                             console.log(variable[ltv])
