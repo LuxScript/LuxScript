@@ -1,0 +1,8 @@
+get "circle";
+
+circle.findr(5, def(x));
+set c = x["circumference"];
+set a = x["air"];
+set r = x["radius"];
+set d = x["diameter"];
+print(d);
