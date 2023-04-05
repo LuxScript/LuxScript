@@ -1,0 +1,25 @@
+{
+    "name": "luxscript",
+    "version": "0.0.4",
+    "description": "The programming language LuxScript.",
+    "main": "./LuxScript/MAIN.js",
+    "dependencies": {
+        "blessed": "^0.1.81",
+        "canvas": "^2.11.0",
+        "chalk": "^4.1.1",
+        "child_process": "^1.0.0",
+        "fs": "*",
+        "http": "*",
+        "jsdom": "^16.6.0",
+        "natural": "^0.6.3",
+        "node-gyp": "^9.3.1",
+        "node-turtle": "^0.0.1",
+        "prettier": "^2.3.2",
+        "prompt-sync": "^4.2.0",
+        "readline-sync": "*",
+        "util": "*"
+    },
+    "devDependencies": {
+        "eslint": "^8.37.0"
+    }
+}
