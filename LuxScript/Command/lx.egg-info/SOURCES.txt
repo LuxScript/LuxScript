@@ -1,8 +1,0 @@
-program.py
-pyproject.toml
-setup.py
-lx.egg-info/PKG-INFO
-lx.egg-info/SOURCES.txt
-lx.egg-info/dependency_links.txt
-lx.egg-info/entry_points.txt
-lx.egg-info/top_level.txt
